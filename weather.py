@@ -18,7 +18,8 @@ prefs = {
 options.add_experimental_option('prefs',prefs)
 options.add_argument("--headless")            #不開啟實體瀏覽器背景執行
 options.add_argument("--incognito")           #開啟無痕模式
-
+options.add_argument("--no-sandbox")
+        
 driver = webdriver.Chrome(options=options)
 #driver = webdriver.Chrome('/usr/local/bin/chromedriver')
 driver.get("https://www.cwb.gov.tw/V8/C/W/Town/Town.html?TID=6703700") #ID改成需要的行政區域，此處為高雄前鎮區
