@@ -5,7 +5,7 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 import requests
 
-content="\n"+"下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班"+"\n"+"肉熊哥哥快去收店"
+content="\n"+"下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班下班"+"\n"+"胖熊哥哥快去收店"
 
 def lineNotifyMessage(token, msg):
     headers = {
