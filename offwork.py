@@ -5,7 +5,9 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 import requests
 
-content="\n"+"胖熊胖熊胖熊胖熊胖熊胖熊胖熊胖熊胖熊胖熊胖熊胖熊胖熊胖熊肉熊肉熊肉熊肉熊肉熊肉熊肉熊肉熊肉熊肉熊肉熊肉熊肉熊肉熊肉熊下班"+"\n"+" 哥哥快去收店"
+#content="\n胖熊胖熊胖熊胖熊胖熊胖熊胖熊胖熊胖熊胖熊胖熊胖熊胖熊胖胖雄熊肉熊肉熊肉熊肉熊肉熊肉熊肉熊肉熊肉熊肉熊肉熊肉熊肉熊肉熊肉熊\n哥\n哥\n快\n去\n"+"收\n店\n！"
+
+content="\n\n|￣￣￣￣￣￣￣￣￣|\n| 胖肉熊哥哥去收店 ! |\n|＿＿＿＿＿＿＿＿＿|\n        (\__/)  ||\n        (•ㅅ•) ||\n        / 　 づ"
 
 def lineNotifyMessage(token, msg):
     headers = {
