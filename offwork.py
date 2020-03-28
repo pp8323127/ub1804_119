@@ -15,8 +15,7 @@ def lineNotifyMessage(token, msg):
           "Content-Type" : "application/x-www-form-urlencoded"
       }
     #payload = {'message': msg}
-    payload= {'message': msg,'imageThumbnail':'https://i.imgur.com/4Z1Yyqk.jpg','imageFullsize':'https://i.imgur.com/4Z1Yyqk.jpg'}
-
+    payload={'message': msg,'imageThumbnail':'https://i.imgur.com/hU9ZfNr.jpg','imageFullsize':'https://i.imgur.com/hU9ZfNr.jpg'}
     r = requests.post("https://notify-api.line.me/api/notify", headers = headers, params = payload)
     return r.status_code
 
