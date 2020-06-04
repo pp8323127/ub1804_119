@@ -16,7 +16,7 @@ def lineNotifyMessage(token, msg):
       }
     #payload = {'message': msg}
 
-    payload={'message': msg,'imageThumbnail':'http://192.168.0.119/epub/1.jpg','imageFullsize':'http://192.168.0.119/epub/1.jpg'}
+    payload={'message': msg,'imageThumbnail':'http://littlemo.myds.me:8080/epub/1.jpg','imageFullsize':'http://littlemo.myds.me:8080/epub/1.jpg'}
 
     r = requests.post("https://notify-api.line.me/api/notify", headers = headers, params = payload)
     return r.status_code
